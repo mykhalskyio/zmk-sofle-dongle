@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    - name: gpeye                         
-      url-base: https://github.com/GPeye  
+    - name: mykhalskyio
+      url-base: https://github.com/mykhalskyio
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -24,8 +24,11 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
-    - name: hammerbeam-slideshow          
-      remote: gpeye                       
-      revision: main                                             
+    # - name: hammerbeam-slideshow
+    #   remote: gpeye
+    #   revision: main
+    - name: nice-view-hoshou-marine
+      remote: mykhalskyio
+      revision: main
   self:
     path: config
